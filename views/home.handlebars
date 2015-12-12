@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		workouts.date = document.getElementById("date").value;
 		workouts.lbs = document.getElementById("lbs").value;
 
-		req.open("GET", "http://127.0.0.1:3000/insert?name=" + workouts.name + "&reps=" + workouts.reps + "&weight=" + workouts.weight + "&date=" + workouts.date + "&lbs=" + workouts.lbs, true);
+		req.open("GET", "http://52.89.202.21:3000/insert?name=" + workouts.name + "&reps=" + workouts.reps + "&weight=" + workouts.weight + "&date=" + workouts.date + "&lbs=" + workouts.lbs, true);
 
 		req.addEventListener("load", function(){
 			console.log("Made it this far.");

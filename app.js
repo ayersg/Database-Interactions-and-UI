@@ -8,7 +8,7 @@ app.set('port', process.env.PORT || 3000);
 
 var mysql = require('mysql');
 var pool = mysql.createPool({
-  host  : 'localhost',
+  host  : '52.89.202.21',
   user  : 'student',
   password: 'default',
   database: 'student'
