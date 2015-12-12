@@ -1,0 +1,17 @@
+{
+  "name": "database-assignment",
+  "version": "1.0.0",
+  "description": "Assignment for CS290 on Database Interactions and UI",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "mysql": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gillian Ayers",
+  "license": "ISC"
+}
